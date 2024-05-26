@@ -18,9 +18,13 @@ directories.jsonに、対象となるフォルダパス : 送信先メールア�
 複数指定可能です。
 Windowsの場合、パスを以下のように入力します。
 
+```
 ✗ \\FILE-SV\Target\path\to\1
-◯ \\\\FILE-SV\\Target\\path\\to\\1
+```
 
+```
+◯ \\\\FILE-SV\\Target\\path\\to\\1
+```
 
 ```bash
 python moninas.py
